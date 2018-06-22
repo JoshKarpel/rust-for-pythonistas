@@ -4,8 +4,8 @@ fn ownership() {
 
     bar += 5;
 
-    println!("{}", foo);
-    println!("{}", bar);
+    println!("foo -> {}", foo);
+    println!("bar -> {}", bar);
 }
 
 fn main() {
