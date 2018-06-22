@@ -1,8 +1,8 @@
 def ownership():
-    foo = 'foo'
-    bar = foo
+    foo = 1
+    bar = 2
 
-    bar += 'bar'
+    bar += 5
 
     print('foo ->', foo)
     print('bar ->', bar)
