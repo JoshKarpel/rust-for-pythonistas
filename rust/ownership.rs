@@ -1,6 +1,6 @@
 fn ownership() {
     let foo = 1;
-    let mut bar = 2;
+    let mut bar = foo;
 
     bar += 5;
 

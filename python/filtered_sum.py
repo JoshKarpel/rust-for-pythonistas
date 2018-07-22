@@ -5,4 +5,5 @@ def filtered_sum() -> int:
     )
 
 
-print(filtered_sum())
+if __name__ == '__main__':
+    print(filtered_sum())

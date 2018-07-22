@@ -1,6 +1,6 @@
 def ownership():
     foo = 1
-    bar = 2
+    bar = foo
 
     bar += 5
 
@@ -8,4 +8,5 @@ def ownership():
     print(bar)
 
 
-ownership()
+if __name__ == '__main__':
+    ownership()

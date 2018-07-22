@@ -8,4 +8,5 @@ def ownership2():
     print(bar)
 
 
-ownership2()
+if __name__ == '__main__':
+    ownership2()
