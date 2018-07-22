@@ -4,8 +4,8 @@ def ownership2():
 
     bar.append(4)
 
-    print(foo)
-    print(bar)
+    print('foo ->', foo)
+    print('bar ->', bar)
 
 
 if __name__ == '__main__':

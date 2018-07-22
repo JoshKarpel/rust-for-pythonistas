@@ -4,8 +4,8 @@ fn ownership2() {
 
     bar.push(4);
 
-    println!("{:?}", foo);
-    println!("{:?}", bar);
+    println!("foo -> {:?}", foo);
+    println!("bar -> {:?}", bar);
 }
 
 
