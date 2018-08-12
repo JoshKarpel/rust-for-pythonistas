@@ -8,14 +8,14 @@ class Direction(Enum):
     Right = 'right'
 
     def to_arrow(self) -> str:
-        return type_to_arrow[self.value]
+        return type_to_arrow[self]
 
 
 type_to_arrow = {
-    Direction.Up.value: '↑',
-    Direction.Down.value: '↓',
-    Direction.Left.value: '←',
-    Direction.Right.value: '→',
+    Direction.Up: '↑',
+    Direction.Down: '↓',
+    Direction.Left: '←',
+    Direction.Right: '→',
 }
 
 if __name__ == '__main__':
