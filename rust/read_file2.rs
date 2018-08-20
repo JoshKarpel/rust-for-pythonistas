@@ -5,6 +5,7 @@ fn read_file2() {
     let file_result = File::open("this/file/does/not/exist.nope");
     let mut contents = String::new();
 
+    // don't really do it this way!
     match file_result {
         Ok(mut file) => file.read_to_string(&mut contents),
         Err(e) => panic!("{}", e),
