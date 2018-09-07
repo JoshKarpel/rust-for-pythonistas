@@ -10,7 +10,7 @@ fn to_arrow(dir: &Direction) -> String {
         Direction::Up => "↑",
         Direction::Down => "↓",
         Direction::Left => "←",
-        Direction::Right => "→",
+        Direction::Right => "→",  // try commenting me out!
     };
 
     s.into()
